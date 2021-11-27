@@ -1,0 +1,60 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "ValhallaVBackend/1.0.0": {
+        "dependencies": {
+          "AltV.Net": "6.1.21",
+          "AltV.Net.Resources.Chat.Api": "1.48.0"
+        },
+        "runtime": {
+          "ValhallaVBackend.dll": {}
+        }
+      },
+      "AltV.Net/6.1.21": {
+        "runtime": {
+          "lib/net5.0/AltV.Net.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "AltV.Net.Resources.Chat.Api/1.48.0": {
+        "dependencies": {
+          "AltV.Net": "6.1.21"
+        },
+        "runtime": {
+          "lib/net5.0/AltV.Net.Resources.Chat.Api.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ValhallaVBackend/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AltV.Net/6.1.21": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-o0l3nUBAFHC6gIf/VLL996k2vjE/wXZmZng3chkYwwQkPHdKnxEoHwzUR3B40vjOtvfcpEhU3dFesewPcbI+Rw==",
+      "path": "altv.net/6.1.21",
+      "hashPath": "altv.net.6.1.21.nupkg.sha512"
+    },
+    "AltV.Net.Resources.Chat.Api/1.48.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-tdFpAdzt8Cj/1XzIeLjzZalMjlA8Isyowapta2tlVEQ9XRXWrsVggMYyqzZS7bEb4BbhNieLW+ZhE9RYXf6Ttw==",
+      "path": "altv.net.resources.chat.api/1.48.0",
+      "hashPath": "altv.net.resources.chat.api.1.48.0.nupkg.sha512"
+    }
+  }
+}

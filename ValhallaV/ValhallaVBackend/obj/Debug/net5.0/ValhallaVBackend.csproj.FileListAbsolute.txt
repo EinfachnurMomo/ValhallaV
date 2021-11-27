@@ -1,0 +1,12 @@
+C:\Users\kenny\Desktop\Dateien\Programmieren\C#\ValhallaV\resources\valhallav\net5.0\ValhallaVBackend.deps.json
+C:\Users\kenny\Desktop\Dateien\Programmieren\C#\ValhallaV\resources\valhallav\net5.0\ValhallaVBackend.dll
+C:\Users\kenny\Desktop\Dateien\Programmieren\C#\ValhallaV\resources\valhallav\net5.0\ref\ValhallaVBackend.dll
+C:\Users\kenny\Desktop\Dateien\Programmieren\C#\ValhallaV\resources\valhallav\net5.0\ValhallaVBackend.pdb
+C:\Users\kenny\Desktop\Dateien\Programmieren\C#\ValhallaV\ValhallaV\ValhallaVBackend\obj\Debug\net5.0\ValhallaVBackend.csproj.AssemblyReference.cache
+C:\Users\kenny\Desktop\Dateien\Programmieren\C#\ValhallaV\ValhallaV\ValhallaVBackend\obj\Debug\net5.0\ValhallaVBackend.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kenny\Desktop\Dateien\Programmieren\C#\ValhallaV\ValhallaV\ValhallaVBackend\obj\Debug\net5.0\ValhallaVBackend.AssemblyInfoInputs.cache
+C:\Users\kenny\Desktop\Dateien\Programmieren\C#\ValhallaV\ValhallaV\ValhallaVBackend\obj\Debug\net5.0\ValhallaVBackend.AssemblyInfo.cs
+C:\Users\kenny\Desktop\Dateien\Programmieren\C#\ValhallaV\ValhallaV\ValhallaVBackend\obj\Debug\net5.0\ValhallaVBackend.csproj.CoreCompileInputs.cache
+C:\Users\kenny\Desktop\Dateien\Programmieren\C#\ValhallaV\ValhallaV\ValhallaVBackend\obj\Debug\net5.0\ValhallaVBackend.dll
+C:\Users\kenny\Desktop\Dateien\Programmieren\C#\ValhallaV\ValhallaV\ValhallaVBackend\obj\Debug\net5.0\ref\ValhallaVBackend.dll
+C:\Users\kenny\Desktop\Dateien\Programmieren\C#\ValhallaV\ValhallaV\ValhallaVBackend\obj\Debug\net5.0\ValhallaVBackend.pdb

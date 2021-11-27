@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "ValhallaVBackend": {
+      "commandName": "Executable",
+      "executablePath": "C:\\Users\\kenny\\Desktop\\Dateien\\Programmieren\\C#\\ValhallaV\\altv-server.exe",
+      "workingDirectory": "C:\\Users\\kenny\\Desktop\\Dateien\\Programmieren\\C#\\ValhallaV"
+    }
+  }
+}

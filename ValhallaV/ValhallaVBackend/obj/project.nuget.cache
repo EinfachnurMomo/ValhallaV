@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "NkFTZ5N7YzsIfdpNxw/tw/jaY6F2PL/7FfQwKk1MmYOfD3sGsDFS9Khj9bo6VhLgdnI+rtJ7IbC7WEAICyutkg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\kenny\\Desktop\\Dateien\\Programmieren\\C#\\ValhallaV\\ValhallaV\\ValhallaVBackend\\ValhallaVBackend.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\kenny\\.nuget\\packages\\altv.net\\6.1.21\\altv.net.6.1.21.nupkg.sha512",
+    "C:\\Users\\kenny\\.nuget\\packages\\altv.net.resources.chat.api\\1.48.0\\altv.net.resources.chat.api.1.48.0.nupkg.sha512"
+  ],
+  "logs": []
+}
