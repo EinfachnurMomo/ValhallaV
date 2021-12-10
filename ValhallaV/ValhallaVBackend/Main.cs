@@ -11,12 +11,11 @@ namespace ValhallaVBackend
     {
         public override void OnStart()
         {
-
+            Alt.Log("Server wurde gestartet!");
         }
 
         public override void OnStop()
         {
-            foreach (var player in Alt.GetAllPlayers().Where(p => p != null && p.Exists)) player.Kick("Server wird gestoppt..");
             Alt.Log("Server wurde gestoppt!");
         }
     }
