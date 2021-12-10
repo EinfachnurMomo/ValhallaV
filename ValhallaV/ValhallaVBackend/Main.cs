@@ -1,5 +1,9 @@
 ﻿using System;
+using System.Linq;
+using System.Threading;
 using AltV.Net;
+using AltV.Net.Data;
+using AltV.Net.Elements.Entities;
 
 namespace ValhallaVBackend
 {
@@ -7,12 +11,13 @@ namespace ValhallaVBackend
     {
         public override void OnStart()
         {
-            Alt.Log("ValhallaV gestartet.");
+
         }
 
         public override void OnStop()
         {
-            Alt.Log("ValhallaV gestoppt!");
+            foreach (var player in Alt.GetAllPlayers().Where(p => p != null && p.Exists)) player.Kick("Server wird gestoppt..");
+            Alt.Log("Server wurde gestoppt!");
         }
     }
 }
