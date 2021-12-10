@@ -2,6 +2,7 @@ C:\Users\kenny\Desktop\Dateien\Programmieren\C#\ValhallaV\resources\valhallav\Va
 C:\Users\kenny\Desktop\Dateien\Programmieren\C#\ValhallaV\resources\valhallav\ValhallaVBackend.dll
 C:\Users\kenny\Desktop\Dateien\Programmieren\C#\ValhallaV\resources\valhallav\ref\ValhallaVBackend.dll
 C:\Users\kenny\Desktop\Dateien\Programmieren\C#\ValhallaV\resources\valhallav\ValhallaVBackend.pdb
+C:\Users\kenny\Desktop\Dateien\Programmieren\C#\ValhallaV\ValhallaV\ValhallaVBackend\obj\Debug\ValhallaVBackend.csproj.AssemblyReference.cache
 C:\Users\kenny\Desktop\Dateien\Programmieren\C#\ValhallaV\ValhallaV\ValhallaVBackend\obj\Debug\ValhallaVBackend.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\kenny\Desktop\Dateien\Programmieren\C#\ValhallaV\ValhallaV\ValhallaVBackend\obj\Debug\ValhallaVBackend.AssemblyInfoInputs.cache
 C:\Users\kenny\Desktop\Dateien\Programmieren\C#\ValhallaV\ValhallaV\ValhallaVBackend\obj\Debug\ValhallaVBackend.AssemblyInfo.cs
