@@ -35,11 +35,11 @@ namespace ValhallaV.Server
         }
 
         [ScriptEvent(ScriptEventType.PlayerDamage)]
-        public void OnPlayerDamage(IPlayer player, IEntity attacker, uint weapon, ushort healthDmage, ushort armourDamage)
+        public void OnPlayerDamage(IPlayer player, IEntity attacker, uint weapon, ushort healthDamage, ushort armourDamage)
         {
-            player.SendChatMessage($"Spieler: {player}");
-            player.SendChatMessage($"Schaden: Leben: {healthDmage}");
-            player.SendChatMessage($"Rüstung: {armourDamage}");
+            player.SendChatMessage($"Spieler: {player.Name}");
+            player.SendChatMessage($"Schaden: Leben: -{healthDamage}");
+            player.SendChatMessage($"Rüstung: -{armourDamage}");
             player.SendChatMessage($"Angreifer: {attacker}");
             player.SendChatMessage($"Waffe: {weapon}");
             player.SendChatMessage($"-----------------------------");
