@@ -7,6 +7,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using AltV.Net.Enums;
 
 namespace ValhallaV.Server
 {
@@ -18,6 +19,19 @@ namespace ValhallaV.Server
             IVehicle veh = Alt.CreateVehicle(Alt.Hash(vehName), new Position(player.Position.X, player.Position.Y + 1.5f, player.Position.Z), player.Rotation);
             veh.PrimaryColorRgb = new Rgba(r, g, b, a);
             if (veh != null) player.SendChatMessage($"{vehName} gespawnt!");
+        }
+
+        [Command("gun")]
+        public static void OnPlayerGiveWeapon(IPlayer player, WeaponModel weaponName, int ammo)
+        {
+            player.GiveWeapon(weaponName, ammo, true);
+        }
+
+        [Command("pos")]
+        public static void OnPlayerGetPosition(IPlayer player)
+        {
+            Alt.Log($"x: {player.Position.X} y: {player.Position.Y} z: {player.Position.Z}");
+            player.SendChatMessage($"x: {player.Position.X} y: {player.Position.Y} z: {player.Position.Z}");
         }
     }
 }

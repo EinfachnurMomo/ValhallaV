@@ -4,7 +4,13 @@
       "commandName": "Project",
       "workingDirectory": "C:\\altv\\ValhallaV",
       "remoteDebugEnabled": false,
-      "authenticationMode": "None"
+      "authenticationMode": "None",
+      "nativeDebugging": false
+    },
+    "ValhallaV.Server.Debug": {
+      "commandName": "Executable",
+      "executablePath": "C:\\altv\\ValhallaV\\altv-server.exe",
+      "workingDirectory": "C:\\altv\\ValhallaV"
     }
   }
 }
