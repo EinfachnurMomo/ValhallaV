@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "ValhallaV.Server": {
+      "commandName": "Project",
+      "workingDirectory": "C:\\altv\\ValhallaV",
+      "remoteDebugEnabled": false,
+      "authenticationMode": "None"
+    }
+  }
+}
