@@ -29,16 +29,20 @@ namespace ValhallaV.Server
         }
 
         [ScriptEvent(ScriptEventType.PlayerEnterVehicle)]
-        public void OnPlayerEnterVehicle(IVehicle veh, IPlayer player, byte seat)
+        public void OnPlayerEnterVehicle(IVehicle vehName, IPlayer player, byte seat)
         {
-            player.SendChatMessage($"Du bist in ein {veh} eingestiegen auf den Platz {seat}.");
+            player.SendChatMessage($"Du bist eingestiegen auf Platz {seat}.");
         }
 
         [ScriptEvent(ScriptEventType.PlayerDamage)]
         public void OnPlayerDamage(IPlayer player, IEntity attacker, uint weapon, ushort healthDmage, ushort armourDamage)
         {
-            
-            player.SendChatMessage($"Spieler: {player}\nSchaden: Leben: {healthDmage} Rüstung: {armourDamage}\nAngreifer: {attacker}\nWaffe: {weapon}");
+            player.SendChatMessage($"Spieler: {player}");
+            player.SendChatMessage($"Schaden: Leben: {healthDmage}");
+            player.SendChatMessage($"Rüstung: {armourDamage}");
+            player.SendChatMessage($"Angreifer: {attacker}");
+            player.SendChatMessage($"Waffe: {weapon}");
+            player.SendChatMessage($"-----------------------------");
         }
     }
 }
