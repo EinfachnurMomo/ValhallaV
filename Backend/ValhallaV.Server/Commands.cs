@@ -14,10 +14,11 @@ namespace ValhallaV.Server
     public class Commands : IScript
     {
         [Command("veh")]
-        public static void OnPlayerCommandCreateVehicle(IPlayer player, string vehName, byte r = 0, byte g = 0, byte b = 0, byte a = 255)
+        public static void OnPlayerCommandCreateVehicle(IPlayer player, string vehName, byte r = 0, byte g = 0, byte b = 0, byte a = 255, byte r2 = 0, byte g2 = 0, byte b2 = 0, byte a2 = 255)
         {
             IVehicle veh = Alt.CreateVehicle(Alt.Hash(vehName), new Position(player.Position.X, player.Position.Y + 1.5f, player.Position.Z), player.Rotation);
             veh.PrimaryColorRgb = new Rgba(r, g, b, a);
+            veh.SecondaryColorRgb = new Rgba(r2, g2, b2, a2);
             if (veh != null) player.SendChatMessage($"{vehName} gespawnt!");
         }
 
