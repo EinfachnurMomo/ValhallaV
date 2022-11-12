@@ -364,3 +364,4 @@ FodyWeavers.xsd
 
 # altv Logs
 cache/
+.idea/
